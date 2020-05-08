@@ -1,0 +1,184 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 220670,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HookStepDefinition.beforetest()"
+            }
+          },
+          {
+            "result": {
+              "duration": 114440,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HookStepDefinition.befsectest()"
+            }
+          },
+          {
+            "result": {
+              "duration": 62609,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HookStepDefinition.sectest()"
+            }
+          },
+          {
+            "result": {
+              "duration": 68253,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HookStepDefinition.setupi()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "First test",
+        "description": "",
+        "id": "learn-to-create-hooks;first-test",
+        "after": [
+          {
+            "result": {
+              "duration": 110848,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HookStepDefinition.aftertest1()"
+            }
+          },
+          {
+            "result": {
+              "duration": 278146,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HookStepDefinition.aftertest()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 162303649,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "first sets",
+            "match": {
+              "location": "HookStepDefinition.first_sets()"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@first"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 740013,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HookStepDefinition.beforetest()"
+            }
+          },
+          {
+            "result": {
+              "duration": 412601,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HookStepDefinition.befsectest()"
+            }
+          },
+          {
+            "result": {
+              "duration": 325873,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HookStepDefinition.sectest()"
+            }
+          },
+          {
+            "result": {
+              "duration": 101611,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HookStepDefinition.firsttest()"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "Second to b run",
+        "description": "",
+        "id": "learn-to-create-hooks;second-to-b-run",
+        "after": [
+          {
+            "result": {
+              "duration": 403364,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HookStepDefinition.aftertest1()"
+            }
+          },
+          {
+            "result": {
+              "duration": 284305,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HookStepDefinition.aftertest()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 93913,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "all data",
+            "match": {
+              "location": "HookStepDefinition.all_data()"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "line": 9,
+            "name": "@second"
+          }
+        ]
+      }
+    ],
+    "name": "learn to create hooks",
+    "description": "",
+    "id": "learn-to-create-hooks",
+    "keyword": "Feature",
+    "uri": "C:/Users/v.mani/eclipse-workspace/CucumberDemo/src/main/java/features/hooks.feature"
+  }
+]

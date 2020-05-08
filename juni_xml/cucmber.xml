@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="0.165521">
+<testcase classname="learn to create hooks" name="First test" time="0.163159">
+<system-out><![CDATA[Given first sets............................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="learn to create hooks" name="Second to b run" time="0.002362">
+<system-out><![CDATA[Given all data..............................................................passed
+]]></system-out>
+</testcase>
+</testsuite>
