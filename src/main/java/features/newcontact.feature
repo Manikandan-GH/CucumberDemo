@@ -12,7 +12,7 @@ Then user clicks contact
 Then user creates new contact
 Then user enters contact details "<first_name>" and "<last_name>" and "<position>"
 
-#Then close the brower
+Then close the brower
  
 Examples:
 | email | password | first_name | last_name | position |
